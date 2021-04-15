@@ -1,0 +1,16 @@
+This API is based on Django and Django rest_framework.
+The is basically for handeling library management.
+
+BaseUrl : http://prabhatk1603.pythonanywhere.com/
+
+Few instruction for url path :
+
+http://prabhatk1603.pythonanywhere.com/articles → All Articles
+
+http://prabhatk1603.pythonanywhere.com/magazines → All Magazines
+
+http://prabhatk1603.pythonanywhere.com/authors/<pk>/articles/ → All articles related to the Author with <pk>
+
+http://prabhatk1603.pythonanywhere.com/magazines/<pk>/articles/ → All articles related to the Magazine with <pk>
+
+http://prabhatk1603.pythonanywhere.com/articles/<pk>/ → RETRIEVE, UPDATE, DESTROY the object with <pk>

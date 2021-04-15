@@ -1,0 +1,13 @@
+Deployment Instructions
+
+- Deploying/Host Django Project on PythonAnywhere
+
+- Create account in pythonanywahere
+
+- Uploading Django Code to Hosting Server via github
+
+- Setting up your Django Web app and WSGI file
+
+- Edit WSGI File to Point our Django Project to Server
+
+- Make sure to edit debug mode to 'False' and ALLOWED_HOSTS =['*'] in settings.py file for production.
